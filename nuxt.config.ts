@@ -12,5 +12,14 @@ export default defineNuxtConfig({
     },
   },
 
+  colorMode: {
+    preference: 'light'
+  },
+
+  ui: {
+    primary: 'green',
+    gray: 'cool'
+  },
+
   ssr: false,
 });

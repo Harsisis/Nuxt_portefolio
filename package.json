@@ -10,22 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "typescript": "^5.0.4",
-    "vitest": "^0.30.1",
-    "prettier": "^2.8.8",
+    "@iconify-json/circle-flags": "^1.2.0",
     "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vitest": "^0.1.4"
+    "eslint-plugin-vitest": "^0.1.4",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   },
   "dependencies": {
     "@nuxt/ui": "^2.18.4",
     "@nuxtjs/i18n": "^8.5.3",
     "@nuxtjs/tailwindcss": "latest",
-    "nuxt": "^3.13.0",
-    "vue": "latest",
-    "vue-router": "latest",
     "@pinia/nuxt": "^0.4.11",
-    "pinia": "^2.1.4"
+    "nuxt": "^3.13.0",
+    "pinia": "^2.1.4",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }

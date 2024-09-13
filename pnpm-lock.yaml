@@ -11,9 +11,6 @@ importers:
       '@nuxt/ui':
         specifier: ^2.18.4
         version: 2.18.4(magicast@0.3.5)(rollup@4.21.3)(vite@5.4.4(@types/node@22.5.4)(terser@5.32.0))(vue@3.5.4(typescript@5.6.2))
-      '@nuxtjs/color-mode':
-        specifier: latest
-        version: 3.5.0(magicast@0.3.5)(rollup@4.21.3)
       '@nuxtjs/i18n':
         specifier: ^8.5.3
         version: 8.5.3(magicast@0.3.5)(rollup@4.21.3)(vue@3.5.4(typescript@5.6.2))
@@ -36,6 +33,9 @@ importers:
         specifier: latest
         version: 4.4.5(vue@3.5.4(typescript@5.6.2))
     devDependencies:
+      '@iconify-json/circle-flags':
+        specifier: ^1.2.0
+        version: 1.2.0
       eslint:
         specifier: ^8.39.0
         version: 8.57.0
@@ -836,6 +836,9 @@ packages:
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
+
+  '@iconify-json/circle-flags@1.2.0':
+    resolution: {integrity: sha512-IiHBArcOAePzikToo52mUmVHh5ysekcuK5xOzZkFk9mokIp+rwYlSP0qgfB0POmD9Y22bCVNHYukyg5a5qDCNw==}
 
   '@iconify-json/heroicons@1.2.0':
     resolution: {integrity: sha512-EmvGN0L9EUJCmQ82rkLGZ4tkz0YGQfZV7ugKT6UvHni/bxNitQrD0gLj6NJj2W9zsSoXyNHyCX236+EJmO4pmA==}
@@ -5019,6 +5022,10 @@ snapshots:
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/object-schema@2.0.3': {}
+
+  '@iconify-json/circle-flags@1.2.0':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/heroicons@1.2.0':
     dependencies:

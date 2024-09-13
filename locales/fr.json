@@ -1,6 +1,9 @@
 {
   "welcome": "Bienvenue",
   "general":{
-    "home": "Accueil"
+    "home": "Accueil",
+    "contact": "Contact",
+    "github": "Github",
+    "linkedin": "Linkedin"
   }
 }

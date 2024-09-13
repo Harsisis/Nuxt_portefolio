@@ -15,6 +15,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vitest": "^0.1.4",
+    "nuxt-gsap-module": "^2.0.0",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4",
     "vitest": "^0.30.1"

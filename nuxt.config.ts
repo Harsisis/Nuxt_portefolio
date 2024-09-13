@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-04-03",
+  compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxtjs/tailwindcss"],
+  modules: ['@nuxt/ui', '@nuxtjs/i18n', '@nuxtjs/tailwindcss'],
 
   app: {
     head: {
@@ -13,13 +13,13 @@ export default defineNuxtConfig({
   },
 
   colorMode: {
-    preference: 'light'
+    preference: 'light',
   },
 
   ui: {
     primary: 'green',
-    gray: 'cool'
+    gray: 'cool',
   },
 
   ssr: false,
-});
+})
